@@ -9,28 +9,20 @@ const icons = {
 
 // ==============================|| MENU ITEMS - EXTRA PAGES ||============================== //
 
-const pages = {
-  id: 'authentication',
-  title: 'Authentication',
+const users = {
+  id: 'user',
+  title: 'User',
   type: 'group',
   children: [
     {
-      id: 'login1',
-      title: 'Login',
+      id: 'user',
+      title: 'Users List',
       type: 'item',
-      url: '/login',
+      url: '/userlist',
       icon: icons.LoginOutlined,
-      target: false
-    },
-    {
-      id: 'register1',
-      title: 'Register',
-      type: 'item',
-      url: '/register',
-      icon: icons.ProfileOutlined,
       target: false
     }
   ]
 };
 
-export default pages;
+export default users;
